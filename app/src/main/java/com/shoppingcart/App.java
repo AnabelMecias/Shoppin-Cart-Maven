@@ -1,3 +1,5 @@
+package com.shoppingcart;
+
 import java.util.Scanner;
 
 /**

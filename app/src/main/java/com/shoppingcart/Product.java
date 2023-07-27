@@ -1,3 +1,5 @@
+package com.shoppingcart;
+
 public class Product {
 	private int productID;
 	private String productName;
