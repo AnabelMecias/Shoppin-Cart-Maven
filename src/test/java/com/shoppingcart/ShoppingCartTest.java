@@ -32,12 +32,12 @@ public class ShoppingCartTest {
     }
 
     @Test
-    public void getSubTotalNoProductsTest(){
+    public void testGetSubTotalNoProducts(){
         Assert.assertEquals(0.0f, this.shoppingCart.getSubTotal(), 0.001f);
     }
 
     @Test
-    public void getSubTotalSingleProductTest(){
+    public void testGetSubTotalSingleProduct(){
         this.shoppingCart.addProduct("UltraPhone", 1);
         Assert.assertEquals(630.0f, this.shoppingCart.getSubTotal(), 1.0f);
     }
