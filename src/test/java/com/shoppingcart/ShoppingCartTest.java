@@ -51,6 +51,7 @@ public class ShoppingCartTest {
         this.shoppingCart.addProduct("SuperBook", 3);
         this.shoppingCart.addProduct("NoiseBuster", 1);
         this.shoppingCart.addProduct("TabX", 2);
+        
         Assertions.assertEquals(4844.0f, this.shoppingCart.getSubTotal());
     }
 
