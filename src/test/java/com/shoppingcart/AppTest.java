@@ -1,4 +1,4 @@
-package com.shoppingcart;
+package test.java.com.shoppingcart;
 
 import static org.junit.Assert.assertTrue;
 

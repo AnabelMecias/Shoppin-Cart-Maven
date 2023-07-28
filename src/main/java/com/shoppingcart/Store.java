@@ -10,7 +10,7 @@ public class Store {
         this.productsAvailables = new ArrayList<>();
     }
 
-    public Store(ArrayList<Product> products) {
+    public Store(List<Product> products) {
         this.productsAvailables = products;
     }
 
@@ -18,7 +18,7 @@ public class Store {
         return productsAvailables;
     }
 
-    public void setProductsAvailables(ArrayList<Product> productsAvailables) {
+    public void setProductsAvailables(List<Product> productsAvailables) {
         this.productsAvailables = productsAvailables;
     }
 
