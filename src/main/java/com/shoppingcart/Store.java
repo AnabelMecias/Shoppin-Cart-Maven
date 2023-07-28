@@ -1,6 +1,7 @@
 package com.shoppingcart;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Store {
     private List<Product> productsAvailables;
