@@ -20,7 +20,7 @@ public class ShoppingCart {
         this.shoppingCartName = shoppingCartName;
         products = new LinkedList<>();
         this.salesTax = 0.1;
-        this.productsQuantityLimit = 10;
+        this.productsQuantityLimit = 100;
         this.store = store;
         this.productsInCart = 0;
     }
